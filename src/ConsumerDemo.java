@@ -36,6 +36,9 @@ public class ConsumerDemo {
         list.forEach(System.out::println);
         
         
+        Stream.of("AAA","BBB","CCC").parallel().forEach(s->System.out.println("Output:"+s));
+        Stream.of("AAA","BBB","CCC").parallel().forEachOrdered(s->System.out.println("Output:"+s));
+        
 }
     
 }
