@@ -7,7 +7,7 @@ import java.util.TreeSet;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class CollectionDemo {
+public class CollectorsDemo {
 	public static void main(String[] args) {
 
 		 List<Person> people = Arrays.asList(
